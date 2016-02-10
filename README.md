@@ -17,6 +17,6 @@ SLF4j
 HttpClient (for calling Yahoo's ticker REST service)  
 Eclipse minimal-json (for parsing Yahoo's huge JSON results without creating classes)  
 
-The app is a no-brainer. Use 'gradle run' to get the server going, then hit http://localhost:8080/wsticker to start the websocket connection. I auto-send GOOG and F as two symbols to start with. You can add more or remove symbols using the A the X buttons along with the symbol entry field. The connection must be active when you send or it won't get to the server, so click "Start" before adding or removing symbols.  
+The app is a no-brainer. Use 'gradle run' to get the server going, then hit http://localhost:8080/ to start the websocket connection. I auto-send GOOG and F as two symbols to start with. You can add more or remove symbols using the A the X buttons along with the symbol entry field. The connection must be active when you send or it won't get to the server, so click "Start" before adding or removing symbols.  
 
 What I didn't have time to do: add Shiro authentication. Maybe next time!
